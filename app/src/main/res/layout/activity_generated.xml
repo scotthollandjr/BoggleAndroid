@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.epicodus.boggle.GeneratedActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World."
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/letterOne"
+        android:layout_marginTop="137dp"
+        android:text="1"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginStart="45dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:id="@+id/letterTwo"
+        android:layout_alignTop="@+id/letterOne"
+        android:layout_toRightOf="@+id/letterOne" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:id="@+id/letterThree"
+        android:layout_alignTop="@+id/letterOne"
+        android:layout_toRightOf="@+id/letterTwo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:id="@+id/letterFour"
+        android:layout_alignTop="@+id/letterOne"
+        android:layout_toRightOf="@+id/letterThree" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:id="@+id/letterFive"
+        android:layout_alignTop="@+id/letterOne"
+        android:layout_toRightOf="@+id/letterFour" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6"
+        android:id="@+id/letterSix"
+        android:layout_alignTop="@+id/letterOne"
+        android:layout_toRightOf="@+id/letterFive" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7"
+        android:id="@+id/letterSeven"
+        android:layout_alignTop="@+id/letterOne"
+        android:layout_toRightOf="@+id/letterSix" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8"
+        android:id="@+id/letterEight"
+        android:layout_alignTop="@+id/letterOne"
+        android:layout_toRightOf="@+id/letterSeven" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputOne"
+        android:text=""
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/letterOne"
+        android:layout_below="@+id/letterOne" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/inputTwo"
+        android:layout_below="@+id/letterTwo"
+        android:layout_alignLeft="@+id/letterTwo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/inputThree"
+        android:layout_below="@+id/letterThree"
+        android:layout_alignLeft="@+id/letterThree" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/inputFour"
+        android:layout_below="@+id/letterFour"
+        android:layout_alignLeft="@+id/letterFour" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/inputFive"
+        android:layout_below="@+id/letterFive"
+        android:layout_alignLeft="@+id/letterFive" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/inputSix"
+        android:layout_below="@+id/letterSix"
+        android:layout_alignLeft="@+id/letterSix" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/inputSeven"
+        android:layout_below="@+id/letterSeven"
+        android:layout_alignLeft="@+id/letterSeven" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/inputEight"
+        android:layout_below="@+id/letterEight"
+        android:layout_alignLeft="@+id/letterEight" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Word"
+        android:id="@+id/check"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
