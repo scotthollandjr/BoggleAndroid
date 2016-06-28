@@ -210,7 +210,7 @@ public class GeneratedActivity extends AppCompatActivity {
         String letter;
         Random r = new Random();
         int n = r.nextInt(26);
-        String[] alphabet = new String[]{"a","b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
+        String[] alphabet = new String[]{"A","B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
         letter = alphabet[n];
         //Log.v(TAG, letter);
         return letter;
@@ -218,8 +218,8 @@ public class GeneratedActivity extends AppCompatActivity {
     public String randVowel() {
         String vowel;
         Random r = new Random();
-        int n = r.nextInt(6);
-        String[] vowels = new String[]{"a", "e", "i", "o", "u", "y",};
+        int n = r.nextInt(5);
+        String[] vowels = new String[]{"A", "E", "I", "O", "U"};
         vowel = vowels[n];
         //Log.v(TAG, letter);
         return vowel;
