@@ -3,21 +3,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.epicodus.boggle.GeneratedActivity">
 
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World."
-        android:id="@+id/textView2"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView2"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="42dp" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/coffee"
+        android:scaleType="centerCrop" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,13 +23,16 @@
         android:id="@+id/letterOne"
         android:layout_marginTop="137dp"
         android:text="1"
-        android:layout_below="@+id/textView2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginLeft="45dp"
-        android:layout_marginStart="45dp" />
+        android:layout_marginStart="45dp"
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textSize="30sp" />
 
     <TextView
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="2"
@@ -40,6 +41,8 @@
         android:layout_toRightOf="@+id/letterOne" />
 
     <TextView
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="3"
@@ -47,6 +50,8 @@
         android:layout_alignTop="@+id/letterOne"
         android:layout_toRightOf="@+id/letterTwo" />
     <TextView
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="4"
@@ -54,6 +59,8 @@
         android:layout_alignTop="@+id/letterOne"
         android:layout_toRightOf="@+id/letterThree" />
     <TextView
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="5"
@@ -61,6 +68,8 @@
         android:layout_alignTop="@+id/letterOne"
         android:layout_toRightOf="@+id/letterFour" />
     <TextView
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="6"
@@ -68,6 +77,8 @@
         android:layout_alignTop="@+id/letterOne"
         android:layout_toRightOf="@+id/letterFive" />
     <TextView
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="7"
@@ -75,6 +86,8 @@
         android:layout_alignTop="@+id/letterOne"
         android:layout_toRightOf="@+id/letterSix" />
     <TextView
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="8"
@@ -83,6 +96,8 @@
         android:layout_toRightOf="@+id/letterSeven" />
 
     <TextView
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/inputOne"
@@ -92,6 +107,8 @@
         android:layout_below="@+id/letterOne" />
 
     <TextView
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
@@ -100,6 +117,8 @@
         android:layout_alignLeft="@+id/letterTwo" />
 
     <TextView
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
@@ -108,6 +127,8 @@
         android:layout_alignLeft="@+id/letterThree" />
 
     <TextView
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
@@ -116,6 +137,8 @@
         android:layout_alignLeft="@+id/letterFour" />
 
     <TextView
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
@@ -124,6 +147,8 @@
         android:layout_alignLeft="@+id/letterFive" />
 
     <TextView
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
@@ -132,6 +157,8 @@
         android:layout_alignLeft="@+id/letterSix" />
 
     <TextView
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
@@ -140,6 +167,8 @@
         android:layout_alignLeft="@+id/letterSeven" />
 
     <TextView
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textSize="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text=""
@@ -154,6 +183,7 @@
         android:id="@+id/check"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
+
 
 
 </RelativeLayout>
