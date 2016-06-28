@@ -38,13 +38,13 @@ public class GeneratedActivity extends AppCompatActivity {
     @Bind(R.id.inputSix) TextView mInputSix;
     @Bind(R.id.inputSeven) TextView mInputSeven;
     @Bind(R.id.inputEight) TextView mInputEight;
+    @Bind(R.id.scoreBox) TextView mScoreBox;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_generated);
-
         ButterKnife.bind(this);
         mLetterOne.setText(randLetter());
         mLetterTwo.setText(randLetter());
@@ -56,9 +56,9 @@ public class GeneratedActivity extends AppCompatActivity {
         mLetterEight.setText(randLetter());
 
         mCheckButton.setOnClickListener(new View.OnClickListener() {
+            int score = 0;
             @Override
             public void onClick(View view) {
-                int score;
                 mInputOne.setText("");
                 mInputTwo.setText("");
                 mInputThree.setText("");
@@ -76,6 +76,8 @@ public class GeneratedActivity extends AppCompatActivity {
                     mInputSix.setText(inputArray.get(5).toString());
                     mInputSeven.setText(inputArray.get(6).toString());
                     mInputEight.setText(inputArray.get(7).toString());
+                    Toast.makeText(GeneratedActivity.this, "+ 10 points", Toast.LENGTH_LONG).show();
+                    score += 10;
                 } else if(inputArray.size() > 6) {
                     mInputOne.setText(inputArray.get(0).toString());
                     mInputTwo.setText(inputArray.get(1).toString());
@@ -84,6 +86,8 @@ public class GeneratedActivity extends AppCompatActivity {
                     mInputFive.setText(inputArray.get(4).toString());
                     mInputSix.setText(inputArray.get(5).toString());
                     mInputSeven.setText(inputArray.get(6).toString());
+                    Toast.makeText(GeneratedActivity.this, "+ 5 points", Toast.LENGTH_LONG).show();
+                    score += 5;
                 } else if(inputArray.size() > 5) {
                     mInputOne.setText(inputArray.get(0).toString());
                     mInputTwo.setText(inputArray.get(1).toString());
@@ -91,25 +95,36 @@ public class GeneratedActivity extends AppCompatActivity {
                     mInputFour.setText(inputArray.get(3).toString());
                     mInputFive.setText(inputArray.get(4).toString());
                     mInputSix.setText(inputArray.get(5).toString());
+                    Toast.makeText(GeneratedActivity.this, "+ 4 points", Toast.LENGTH_LONG).show();
+                    score += 4;
                 } else if(inputArray.size() > 4) {
                     mInputOne.setText(inputArray.get(0).toString());
                     mInputTwo.setText(inputArray.get(1).toString());
                     mInputThree.setText(inputArray.get(2).toString());
                     mInputFour.setText(inputArray.get(3).toString());
                     mInputFive.setText(inputArray.get(4).toString());
+                    Toast.makeText(GeneratedActivity.this, "+ 3 points", Toast.LENGTH_LONG).show();
+                    score += 3;
                 } else if(inputArray.size() > 3) {
                     mInputOne.setText(inputArray.get(0).toString());
                     mInputTwo.setText(inputArray.get(1).toString());
                     mInputThree.setText(inputArray.get(2).toString());
                     mInputFour.setText(inputArray.get(3).toString());
+                    Toast.makeText(GeneratedActivity.this, "+ 2 points", Toast.LENGTH_LONG).show();
+                    score += 2;
                 } else if(inputArray.size() > 2) {
                     mInputOne.setText(inputArray.get(0).toString());
                     mInputTwo.setText(inputArray.get(1).toString());
                     mInputThree.setText(inputArray.get(2).toString());
+                    Toast.makeText(GeneratedActivity.this, "+ 1 points", Toast.LENGTH_LONG).show();
+                    score ++;
                 }else{
                     Toast.makeText(GeneratedActivity.this, "Word Must Be Three Letters Long", Toast.LENGTH_LONG).show();
                 }
                 inputArray.clear();
+
+                Log.d(TAG, "" + score + "");
+                mScoreBox.setText("Score: " + score + "");
             }
         });
 

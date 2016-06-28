@@ -27,8 +27,13 @@
         android:layout_alignParentStart="true"
         android:layout_marginLeft="45dp"
         android:layout_marginStart="45dp"
-        android:textColor="@color/primary_text_default_material_dark"
-        android:textSize="30sp" />
+        android:textColor="@color/material_grey_300"
+        android:textSize="30sp"
+        android:background="#d448301c"
+        android:width="45dp"
+        android:height="45dp"
+        android:layout_margin="3dp"
+        android:textAlignment="center" />
 
     <TextView
         android:textColor="@color/primary_text_default_material_dark"
@@ -38,7 +43,13 @@
         android:text="2"
         android:id="@+id/letterTwo"
         android:layout_alignTop="@+id/letterOne"
-        android:layout_toRightOf="@+id/letterOne" />
+        android:layout_toRightOf="@+id/letterOne"
+        android:background="#d448301c"
+        android:width="45dp"
+        android:height="45dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:textAlignment="center" />
 
     <TextView
         android:textColor="@color/primary_text_default_material_dark"
@@ -48,7 +59,13 @@
         android:text="3"
         android:id="@+id/letterThree"
         android:layout_alignTop="@+id/letterOne"
-        android:layout_toRightOf="@+id/letterTwo" />
+        android:layout_toRightOf="@+id/letterTwo"
+        android:background="#d448301c"
+        android:width="45dp"
+        android:height="45dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:textAlignment="center" />
     <TextView
         android:textColor="@color/primary_text_default_material_dark"
         android:textSize="30sp"
@@ -57,7 +74,13 @@
         android:text="4"
         android:id="@+id/letterFour"
         android:layout_alignTop="@+id/letterOne"
-        android:layout_toRightOf="@+id/letterThree" />
+        android:layout_toRightOf="@+id/letterThree"
+        android:background="#d448301c"
+        android:width="45dp"
+        android:height="45dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:textAlignment="center" />
     <TextView
         android:textColor="@color/primary_text_default_material_dark"
         android:textSize="30sp"
@@ -66,7 +89,13 @@
         android:text="5"
         android:id="@+id/letterFive"
         android:layout_alignTop="@+id/letterOne"
-        android:layout_toRightOf="@+id/letterFour" />
+        android:layout_toRightOf="@+id/letterFour"
+        android:background="#d448301c"
+        android:width="45dp"
+        android:height="45dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:textAlignment="center" />
     <TextView
         android:textColor="@color/primary_text_default_material_dark"
         android:textSize="30sp"
@@ -75,7 +104,13 @@
         android:text="6"
         android:id="@+id/letterSix"
         android:layout_alignTop="@+id/letterOne"
-        android:layout_toRightOf="@+id/letterFive" />
+        android:layout_toRightOf="@+id/letterFive"
+        android:background="#d448301c"
+        android:width="45dp"
+        android:height="45dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:textAlignment="center" />
     <TextView
         android:textColor="@color/primary_text_default_material_dark"
         android:textSize="30sp"
@@ -84,7 +119,13 @@
         android:text="7"
         android:id="@+id/letterSeven"
         android:layout_alignTop="@+id/letterOne"
-        android:layout_toRightOf="@+id/letterSix" />
+        android:layout_toRightOf="@+id/letterSix"
+        android:background="#d448301c"
+        android:width="45dp"
+        android:height="45dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:textAlignment="center" />
     <TextView
         android:textColor="@color/primary_text_default_material_dark"
         android:textSize="30sp"
@@ -93,7 +134,13 @@
         android:text="8"
         android:id="@+id/letterEight"
         android:layout_alignTop="@+id/letterOne"
-        android:layout_toRightOf="@+id/letterSeven" />
+        android:layout_toRightOf="@+id/letterSeven"
+        android:background="#d448301c"
+        android:width="45dp"
+        android:height="45dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="3dp"
+        android:textAlignment="center" />
 
     <TextView
         android:textColor="@color/primary_text_default_material_dark"
@@ -104,7 +151,11 @@
         android:text=""
         android:layout_centerVertical="true"
         android:layout_alignLeft="@+id/letterOne"
-        android:layout_below="@+id/letterOne" />
+        android:layout_below="@+id/letterOne"
+        android:background="#d448301c"
+        android:width="45dp"
+        android:height="45dp"
+        android:textAlignment="center" />
 
     <TextView
         android:textColor="@color/primary_text_default_material_dark"
@@ -114,7 +165,11 @@
         android:text=""
         android:id="@+id/inputTwo"
         android:layout_below="@+id/letterTwo"
-        android:layout_alignLeft="@+id/letterTwo" />
+        android:layout_alignLeft="@+id/letterTwo"
+        android:background="#d448301c"
+        android:width="45dp"
+        android:height="45dp"
+        android:textAlignment="center" />
 
     <TextView
         android:textColor="@color/primary_text_default_material_dark"
@@ -124,7 +179,11 @@
         android:text=""
         android:id="@+id/inputThree"
         android:layout_below="@+id/letterThree"
-        android:layout_alignLeft="@+id/letterThree" />
+        android:layout_alignLeft="@+id/letterThree"
+        android:background="#d448301c"
+        android:width="45dp"
+        android:height="45dp"
+        android:textAlignment="center" />
 
     <TextView
         android:textColor="@color/primary_text_default_material_dark"
@@ -134,7 +193,11 @@
         android:text=""
         android:id="@+id/inputFour"
         android:layout_below="@+id/letterFour"
-        android:layout_alignLeft="@+id/letterFour" />
+        android:layout_alignLeft="@+id/letterFour"
+        android:background="#d448301c"
+        android:width="45dp"
+        android:height="45dp"
+        android:textAlignment="center" />
 
     <TextView
         android:textColor="@color/primary_text_default_material_dark"
@@ -144,7 +207,11 @@
         android:text=""
         android:id="@+id/inputFive"
         android:layout_below="@+id/letterFive"
-        android:layout_alignLeft="@+id/letterFive" />
+        android:layout_alignLeft="@+id/letterFive"
+        android:background="#d448301c"
+        android:width="45dp"
+        android:height="45dp"
+        android:textAlignment="center" />
 
     <TextView
         android:textColor="@color/primary_text_default_material_dark"
@@ -154,7 +221,11 @@
         android:text=""
         android:id="@+id/inputSix"
         android:layout_below="@+id/letterSix"
-        android:layout_alignLeft="@+id/letterSix" />
+        android:layout_alignLeft="@+id/letterSix"
+        android:background="#d448301c"
+        android:width="45dp"
+        android:height="45dp"
+        android:textAlignment="center" />
 
     <TextView
         android:textColor="@color/primary_text_default_material_dark"
@@ -164,7 +235,11 @@
         android:text=""
         android:id="@+id/inputSeven"
         android:layout_below="@+id/letterSeven"
-        android:layout_alignLeft="@+id/letterSeven" />
+        android:layout_alignLeft="@+id/letterSeven"
+        android:background="#d448301c"
+        android:width="45dp"
+        android:height="45dp"
+        android:textAlignment="center" />
 
     <TextView
         android:textColor="@color/primary_text_default_material_dark"
@@ -174,16 +249,36 @@
         android:text=""
         android:id="@+id/inputEight"
         android:layout_below="@+id/letterEight"
-        android:layout_alignLeft="@+id/letterEight" />
+        android:layout_alignLeft="@+id/letterEight"
+        android:background="#d448301c"
+        android:width="45dp"
+        android:height="45dp"
+        android:textAlignment="center" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Check Word"
         android:id="@+id/check"
+        android:height="65dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoreBox"
+        android:layout_below="@+id/inputOne"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp"
+        android:layout_marginLeft="33dp"
+        android:background="#d448301c"
+        android:width="160dp"
+        android:height="45dp"
+        android:textSize="30sp"
+        android:textColor="@color/primary_text_default_material_dark"
+        android:textAlignment="center"/>
 
 
 </RelativeLayout>
