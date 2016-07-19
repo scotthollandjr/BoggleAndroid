@@ -1,6 +1,6 @@
 # Boggle
 
-Boggle project for Epicodus Android Development. Randomized letters are displayed on the screen and the user must create words by clicking on the letters. A score is added as words are entered.
+Boggle project for Epicodus Android Development course. Randomized letters are displayed on the screen and the user must create words by clicking on the letters. A score is added as words are entered.
 
 This project will demonstrate proficiency in Java and Android Development.
 
